@@ -65,5 +65,9 @@ In this step, a new interface greets us. In this interface, we can see the numbe
 <summary><b><big>Click for image</big></b></summary>
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232324637036122153/Settings_Screen.PNG?ex=66290b40&is=6627b9c0&hm=5b5f749cd0dfbd33e2c8256b1a0ff26ef7b5ceabb78f793bfc960a2749edc43a&" alt="Login Screen">
+  <p align="center">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232325360662614056/Settings_Screen1.PNG?ex=66290bed&is=6627ba6d&hm=e9928c7f3c5f61cc0ec2924f1b9978ca7c6b6faac6e317c1bc80bfba12a0edcd&" alt="Login Screen">
+  <p align="center">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232325372570239106/Settings_Screen2.PNG?ex=66290bf0&is=6627ba70&hm=1b38764b1d3dc24253a29d1dc5255e3d8aedd78d5147646f5a035ba79442abb3&" alt="Login Screen">
 </p>
 </details>
