@@ -18,6 +18,27 @@ Amazon Tool is an automation tool designed for those interested in the Dropshipp
 
 ---
 
+### To-Do List:
+
+This section lists the tasks to be completed for the project:
+
+- **Detection of Asins:** Identifying and recording the Asins.
+- **Transfer of Product Asins:** Transfer the identified product Asins to a new Excel file.
+- **Loading Asins into Sellerflash Software:** Uploading the identified Asins into the Sellerflash software.
+- **Modification of Necessary Informations on the Interface:** Updating the informative messages and texts on the interface.
+- **Deletion of Products Based on Filter Settings:** Deleting products based on specific filter settings.
+- **Navigating to the Next Link in Excel and Repeating the Process:** Proceeding to the next link in Excel and repeating the process.
+
+---
+
+### Current Issues:
+
+This section lists the current issues with the project:
+
+- **Unresponsive State of the Initial Interface While Selenium is Running:** Issues related to the initial interface becoming unresponsive while Selenium is running.
+
+---
+
 ### Login screen and operations
 
 When the application is launched, you will be greeted with a user interface. In this interface, you will need to input your email and password in the designated fields. After entering this information, upon clicking the 'Sign In' button, the application will first verify the correctness of your email and password in the background. At this stage, the application utilizes the Selenium library to ensure accuracy.
