@@ -54,3 +54,16 @@ In this step, after verifying the email and password, we gain access to the user
   <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232321304473112687/Selenium2.PNG?ex=66290826&is=6627b6a6&hm=14086d9ea592e7759e02df8563f48fb3ce271c1c6927533faf38fa507d54afd5&" alt="Login Screen">
 </p>
 </details>
+
+---
+
+### Step 3: File Location and Starting Product Scanning
+
+In this step, a new interface greets us. In this interface, we can see the number of products in our store, the daily scanning limit, and our package limit. Additionally, in this section, there are three buttons: "Asin Folder", "Start", and "Stop". However, the "Stop" button is not yet functional. You must first press the "Asin Folder" button, otherwise you will see an error screen in the interface. After clicking the button, you will be prompted to select a file in Excel (.xlsx) format only. After selecting the file location, you will see the location in the interface. Upon pressing the "Start" button, the process will begin with the links found in the first row and column of the Excel file.
+
+<details>
+<summary><b><big>Click for image</big></b></summary>
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232324637036122153/Settings_Screen.PNG?ex=66290b40&is=6627b9c0&hm=5b5f749cd0dfbd33e2c8256b1a0ff26ef7b5ceabb78f793bfc960a2749edc43a&" alt="Login Screen">
+</p>
+</details>
