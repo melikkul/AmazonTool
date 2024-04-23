@@ -27,8 +27,6 @@ class MainWindow(QMainWindow):
         try:
             email = self.ui.lineEdit.text()
             password = self.ui.lineEdit_2.text()
-            email = 'melikkul.amazon@gmail.com'
-            password = 'Melikbaki52.' 
             status = check_account(email, password)
             print(status)
 
