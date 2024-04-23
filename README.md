@@ -13,3 +13,13 @@ When the application is launched, you will be greeted with a user interface. In 
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232309636305125416/Login_Screen.PNG?ex=6628fd48&is=6627abc8&hm=5341f06e2786d68102ea092f2882515b989219dec5432a5f3844119ca1b41e07&" alt="Login Screen">
 </p>
+
+---
+
+### Step 1: Email - Password Verification
+
+In this step, we verify the correctness of the email and password used to log in to the Sellerflash application. If the login is successful, we proceed to the next step by receiving the result "True" in the terminal.
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232317096441155715/Selenium1.PNG?ex=6629043b&is=6627b2bb&hm=8fb6bbebe0738f3a533bcf939398504c44dae18b2743cc1a5db816c72ff39e30&" alt="Login Screen">
+</p>
