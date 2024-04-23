@@ -12,8 +12,6 @@ The fundamental tools used in this project are listed below:
 
 These libraries are utilized in various aspects of the project, supporting different functionalities.
 
-</a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a>
-
 ### What is Amazon Tool? What does Amazon tool do?
 
 Amazon Tool is an automation tool designed for those interested in the Dropshipping (FBM) model within Amazon's business models and who use the Sellerflash Software. This tool monitors your Sellerflash membership, captures product ASIN (Amazon Standard Identification Number) information based on the limits of your package in the software, and uploads them to your store. Thus, it enhances the efficiency of your business on Sellerflash while allowing you to utilize your time more effectively.
@@ -36,4 +34,14 @@ In this step, we verify the correctness of the email and password used to log in
 
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232317096441155715/Selenium1.PNG?ex=6629043b&is=6627b2bb&hm=8fb6bbebe0738f3a533bcf939398504c44dae18b2743cc1a5db816c72ff39e30&" alt="Login Screen">
+</p>
+
+---
+
+### Step 2: Username, Product Limit, Product Count
+
+In this step, after verifying the email and password, we gain access to the username, product limit, and the number of products found. This ensures scanning the correct number of products and prevents exceeding the account quota.
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232321304473112687/Selenium2.PNG?ex=66290826&is=6627b6a6&hm=14086d9ea592e7759e02df8563f48fb3ce271c1c6927533faf38fa507d54afd5&" alt="Login Screen">
 </p>
