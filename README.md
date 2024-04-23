@@ -11,5 +11,5 @@ Amazon Tool is an automation tool designed for those interested in the Dropshipp
 When the application is launched, you will be greeted with a user interface. In this interface, you will need to input your email and password in the designated fields. After entering this information, upon clicking the 'Sign In' button, the application will first verify the correctness of your email and password in the background. At this stage, the application utilizes the Selenium library to ensure accuracy.
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232309636305125416/Login_Screen.PNG" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232309636305125416/Login_Screen.PNG?ex=6628fd48&is=6627abc8&hm=5341f06e2786d68102ea092f2882515b989219dec5432a5f3844119ca1b41e07&" alt="Login Screen">
 </p>
