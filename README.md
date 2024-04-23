@@ -71,3 +71,18 @@ In this step, a new interface greets us. In this interface, we can see the numbe
   <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232325372570239106/Settings_Screen2.PNG?ex=66290bf0&is=6627ba70&hm=1b38764b1d3dc24253a29d1dc5255e3d8aedd78d5147646f5a035ba79442abb3&" alt="Login Screen">
 </p>
 </details>
+
+---
+
+### Step 4: Detection of Categories and Average Product Count
+
+In this step, after entering the link found in our Excel file, the first action taken is to check the zip code. If the zip code is not "10001", actions are taken to correct it to "10001". Afterwards, once all products are accessed, the existing categories are identified. During this process, real-time information about these operations is displayed on our interface. After the category detection process is completed, the estimated product count in each category is determined. During this stage, the progress of the operation is displayed as a percentage on our interface. Additionally, information about the product count is also provided on the interface.
+
+<details>
+<summary><b><big>Click for image</big></b></summary>
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232329260606165082/Selenium4.PNG?ex=66290f8f&is=6627be0f&hm=5f77b26ab603b0e512404f2bce809b3e1e5e022ec4155eb7833d33973223b9d2&" alt="Login Screen">
+  <p align="center">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232329275500265553/Selenium5.PNG?ex=66290f92&is=6627be12&hm=e7644b0acebabc50745fe393b5065b2ace880a822bd51aa004a85af09fce6a82&" alt="Login Screen">
+</p>
+</details>
