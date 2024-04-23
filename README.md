@@ -1,5 +1,19 @@
 # AmazonTool
 
+### Tools Used
+
+The fundamental tools used in this project are listed below:
+
+- **Selenium Library:** A library used for web automation.
+- **Pandas Library:** A library used for data analysis and manipulation.
+- **PySide6 Library:** A Python binding used for creating user interfaces.
+- **Thread Library:** A library providing support for concurrent processes and multi-threading.
+- **Time Library:** A library used for performing operations related to time.
+
+These libraries are utilized in various aspects of the project, supporting different functionalities.
+
+</a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a>
+
 ### What is Amazon Tool? What does Amazon tool do?
 
 Amazon Tool is an automation tool designed for those interested in the Dropshipping (FBM) model within Amazon's business models and who use the Sellerflash Software. This tool monitors your Sellerflash membership, captures product ASIN (Amazon Standard Identification Number) information based on the limits of your package in the software, and uploads them to your store. Thus, it enhances the efficiency of your business on Sellerflash while allowing you to utilize your time more effectively.
