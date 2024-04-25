@@ -38,7 +38,7 @@ def category_find(driver, log_screen):
     log_screen.append('----------------------KATEGORİLER KONTROL-----------------------')
     log_screen.append('Kategoriler kontrol ediliyor...')
     for category_name, content_id in categories.items():
-        element = find_element(driver, By.XPATH, f'//*[@id="{content_id}"]')
+        element = find_element(driver, By.XPATH, f'//*[@id="{content_id}"]', 2)
         if element is not None:
             #print(f"'{category_name}' kategorisi bulundu.")
             log_screen.append(f"->'{category_name}' kategorisi bulundu.")
@@ -68,7 +68,6 @@ def product_count(driver,log_screen, yukleme_ekrani):
                     error_occurred = False
                     break
             except Exception:
-                print('HATA!')
                 break
         #print(f"Kategori Adı: {category_name}, İçerik Kimliği: {content_id}")
         element = find_element(driver, By.XPATH, f'//*[@id="{content_id}"]/span/a')
@@ -93,15 +92,18 @@ def product_count(driver,log_screen, yukleme_ekrani):
                             num = m.group()
                             count_products += int(num.replace(",", ""))
                             count_process += 1
+                            calculate = (100/count_productss)* count_process
                             #print("Bulunan sayı:", num)
+                            yukleme_ekrani.setValue(int(calculate))
                             log_screen.append(f"->{category_name} kategorisinde bulunan ürün: {num}")
-                        yukleme_ekrani.setValue((100/count_productss)* count_process)
                 else:
                     count_products += int(number)
                     count_process += 1
-                    yukleme_ekrani.setValue((100/count_productss)* count_process)
+                    calculate = (100/count_productss)* count_process
+                    yukleme_ekrani.setValue(int(calculate))
                     #print("Bulunan sayı:", number)
                     log_screen.append(f"->{category_name} kategorisinde bulunan ürün: {number}")
+                calculate = (100/count_productss)* count_process
                 driver.back()
                 time.sleep(2)
             else:

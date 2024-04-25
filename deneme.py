@@ -1,10 +1,34 @@
+import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog
 from ui_asinfetcher import Ui_MainWindow
 from ui_asinfetchersettings import Ui_SettingsWindow
-from PySide6.QtCore import QTimer, QCoreApplication
+from PySide6.QtCore import QTimer, QCoreApplication, QThread, Signal
 from email_password import check_account, check_username
-from threading import Thread
 from scan_asin import asin_scan_fnc
+
+class Worker(QThread):
+    """
+    Arka planda uzun süren işlemi gerçekleştiren sınıf.
+    """
+
+    finished = Signal()
+
+    def __init__(self, location, log_screen, yukleme_ekrani):
+        super().__init__()
+        self.location = location
+        self.log_screen = log_screen
+        self.yukleme_ekrani = yukleme_ekrani
+
+    def run(self):
+        """
+        Uzun süren işlemi gerçekleştirir ve işlem tamamlandığında finished sinyalini gönderir.
+        """
+        try:
+            asin_scan_fnc(self.location, self.log_screen, self.yukleme_ekrani)
+        except Exception as e:
+            print("An error occurred in Worker run method:", e)
+        finally:
+            self.finished.emit()
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -27,14 +51,12 @@ class MainWindow(QMainWindow):
         try:
             email = self.ui.lineEdit.text()
             password = self.ui.lineEdit_2.text()
-            email = "melikkul.amazon@gmail.com"
-            password = "Melikbaki52."
             status = check_account(email, password)
             print(status)
 
             if status == False:
                 self.close()
-                return  # Eğer status False ise, programı burada sonlandır.
+                return
 
             account_name, product_limit, user_product_limit, your_product = check_username(email, password)
             print(account_name)
@@ -84,10 +106,19 @@ class MainWindow(QMainWindow):
                 print(location)
                 self.ui.asin_dosya_konumu.setStyleSheet(u"border-radius: 15px;\n"
                                                         "background-color:white;")
-                # asin_scan_fnc fonksiyonunu bir iş parçacığında çalıştır
-                Thread(target=asin_scan_fnc,name = "QThread1", args=(location, self.ui.log_screen, self.ui.yukleme_ekrani)).start()
+                # Worker sınıfını kullanarak uzun süren işlemi arka planda çalıştır
+                worker = Worker(location, self.ui.log_screen, self.ui.yukleme_ekrani)
+                worker.finished.connect(worker.deleteLater)  # Worker nesnesini silmek için finished sinyalini bağla
+                worker.finished.connect(self.handle_finished)
+                worker.start()
         except Exception as e:
             print("An error occurred in start_button_clicked:", e)
+    
+    def handle_finished(self):
+        """
+        Uzun süren işlem tamamlandığında çağrılır ve gerekirse gerekli işlemleri yapar.
+        """
+        pass
 
 if __name__ == "__main__":
     try:
