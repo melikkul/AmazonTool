@@ -59,7 +59,7 @@ In this step, we verify the correctness of the email and password used to log in
 <details>
 <summary><b><big>Click for image</big></b></summary>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232317096441155715/Selenium1.PNG?ex=6629043b&is=6627b2bb&hm=8fb6bbebe0738f3a533bcf939398504c44dae18b2743cc1a5db816c72ff39e30&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232317096441155715/Selenium1.PNG?ex=664bf3fb&is=664aa27b&hm=e8b6c87b3f531ee4d76e629d8b77f119da419c31c2658729bd4625a3db157ef5&" alt="Login Screen">
 </p>
 </details>
 
@@ -72,7 +72,7 @@ In this step, after verifying the email and password, we gain access to the user
 <details>
 <summary><b><big>Click for image</big></b></summary>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232321304473112687/Selenium2.PNG?ex=66290826&is=6627b6a6&hm=14086d9ea592e7759e02df8563f48fb3ce271c1c6927533faf38fa507d54afd5&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232321304473112687/Selenium2.PNG?ex=664bf7e6&is=664aa666&hm=dabcb916f83c3e8a973b8b4932f7f8ccf6a9580989fec80ec3e53591e05bec5b&" alt="Login Screen">
 </p>
 </details>
 
@@ -85,11 +85,11 @@ In this step, a new interface greets us. In this interface, we can see the numbe
 <details>
 <summary><b><big>Click for image</big></b></summary>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232324637036122153/Settings_Screen.PNG?ex=66290b40&is=6627b9c0&hm=5b5f749cd0dfbd33e2c8256b1a0ff26ef7b5ceabb78f793bfc960a2749edc43a&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232324637036122153/Settings_Screen.PNG?ex=664bfb00&is=664aa980&hm=0c93f39b6ef4968f58888e7a456b048dc4bd2864946e6b650973763d2dd40cfd&" alt="Login Screen">
   <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232325360662614056/Settings_Screen1.PNG?ex=66290bed&is=6627ba6d&hm=e9928c7f3c5f61cc0ec2924f1b9978ca7c6b6faac6e317c1bc80bfba12a0edcd&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232325360662614056/Settings_Screen1.PNG?ex=664bfbad&is=664aaa2d&hm=453bcf8f78bab201f7c38c64cabda1faf10d8680ec9c25577b55ae75358f9481&" alt="Login Screen">
   <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232325372570239106/Settings_Screen2.PNG?ex=66290bf0&is=6627ba70&hm=1b38764b1d3dc24253a29d1dc5255e3d8aedd78d5147646f5a035ba79442abb3&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232325372570239106/Settings_Screen2.PNG?ex=664bfbb0&is=664aaa30&hm=2568696d7c039a0c7d07c6a0fc62a5daa5991ca8f014c10e8ece137fa60fba79&" alt="Login Screen">
 </p>
 </details>
 
@@ -102,8 +102,8 @@ In this step, after entering the link found in our Excel file, the first action 
 <details>
 <summary><b><big>Click for image</big></b></summary>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232329260606165082/Selenium4.PNG?ex=66290f8f&is=6627be0f&hm=5f77b26ab603b0e512404f2bce809b3e1e5e022ec4155eb7833d33973223b9d2&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232329260606165082/Selenium4.PNG?ex=664bff4f&is=664aadcf&hm=9aafd933fa9ac25af72fd2aa5fc7bd447712bb70b76fe0c389d614904f239079&" alt="Login Screen">
   <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232329275500265553/Selenium5.PNG?ex=66290f92&is=6627be12&hm=e7644b0acebabc50745fe393b5065b2ace880a822bd51aa004a85af09fce6a82&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232329275500265553/Selenium5.PNG?ex=664bff52&is=664aadd2&hm=17b22fe5fb419a1e4ce1b4e5054c4ba15064aa1f7fca7beb2d5e4c40c8486c14&" alt="Login Screen">
 </p>
 </details>
