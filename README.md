@@ -46,7 +46,7 @@ When the application is launched, you will be greeted with a user interface. In 
 <details>
 <summary><b><big>Click for image</big></b></summary>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232309636305125416/Login_Screen.PNG?ex=6628fd48&is=6627abc8&hm=5341f06e2786d68102ea092f2882515b989219dec5432a5f3844119ca1b41e07&" alt="Login Screen">
+  <img src="https://cdn.discordapp.com/attachments/782962565293932554/1232309636305125416/Login_Screen.PNG?ex=664c95c8&is=664b4448&hm=9eb558a2d5c62919e90e0f057d2a0ee6891dae702111e4f88b029380acaea3f7&" alt="Login Screen">
 </p>
 </details>
 
